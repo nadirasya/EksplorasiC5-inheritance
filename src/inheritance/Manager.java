@@ -32,6 +32,11 @@ public class Manager extends Employee {
         return baseSalary + bonus;
     }
     
+    @Override
+    public String getName(){
+        return "Manager Name: " + super.getName();
+    }
+    
     public void setBonus(double b){
         bonus = b;
     }
